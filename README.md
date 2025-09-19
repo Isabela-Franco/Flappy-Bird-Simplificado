@@ -4,7 +4,7 @@ Um jogo simplificado inspirado no Flappy Bird, feito com Pygame.
 ##Como jogar
 - Aperte **espaço** para pular.
 - Evite os canos verdes.
-- A cada cano passado aumenta a sua pontuação.
+- A cada ccano passado aumenta a sua pontuação.
 
 ##Tecnologias
 - Python
