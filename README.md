@@ -11,4 +11,6 @@ Um jogo simplificado inspirado no Flappy Bird, feito com Pygame.
 - Pygame
 
 #Tela do jogo
+
+
   <img width="592" height="600" alt="screenshot" src="https://github.com/user-attachments/assets/63bd5315-06e8-4215-a317-378ff48fca32" />
