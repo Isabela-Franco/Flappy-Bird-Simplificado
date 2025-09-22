@@ -86,13 +86,17 @@ while rodando:
 
     #Verificar colisão 
     if colisao():
-        print('Game Over! Pontuação: ' , pontuacao)
-        rodando = False
+        passaro_y = ALTURA // 2 
+        velocidade = 0
+        canos = []
+        pontuacao = 0
+        spawn_timer = 0
+        criar_cano()  
 
     #Pontuação 
     fonte = pygame.font.SysFont(None, 40)
     texto = fonte.render(f'Pontuação: {pontuacao}', True, BRANCO) 
-    tela.blit(texto, (10,10)) 
+    tela.blit(texto, (10,10))   
 
     pygame.display.update()
 pygame.quit()
